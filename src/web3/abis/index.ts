@@ -1,0 +1,1 @@
+export { default as ERC20_EXTENDED_ABI } from "./erc20-extended";
