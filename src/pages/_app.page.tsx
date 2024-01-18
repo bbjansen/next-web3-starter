@@ -9,6 +9,8 @@ import Web3Provider from "../components/Web3Provider";
 import store from "../store";
 import config from "../web3/config"
 
+import "styles/global.css";
+
 type NextPageWithLayout<Props = {}, InitialProps = Props> = NextPage<Props, InitialProps> & {
   getLayout?: (page: React.ReactNode) => React.ReactNode;
 };
